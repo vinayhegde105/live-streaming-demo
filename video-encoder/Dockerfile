@@ -7,7 +7,7 @@ RUN wget http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Elepha
 VOLUME /stream
 
 CMD ["-stream_loop", "-1", \
-     "-i", "big_buck_bunny_720p_1mb.mp4", \
+     "-i", "ElephantsDream.mp4", \
      "-c:v", "libx264", \
      "-x264opts", "keyint=30:min-keyint=30:scenecut=-1", \
      "-preset", "superfast", \

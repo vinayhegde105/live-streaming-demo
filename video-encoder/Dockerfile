@@ -2,7 +2,7 @@ FROM jrottenberg/ffmpeg
 
 RUN apt-get update && apt-get install -y wget
 
-RUN wget https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4
+RUN wget http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
 
 VOLUME /stream
 
